@@ -1,0 +1,139 @@
+/* Navbar style start */
+#navbar{
+    flex-wrap: nowrap;
+    margin: 0 5%;
+}
+.navbar{
+    animation-duration: 2s;
+    animation-name: navbar;
+}
+#dropdownId{
+    color: white;
+    font-weight: 400px;
+    margin-left: 2%;
+}
+#dropdownId:nth-child(1){
+    border-bottom: 2px solid white;
+}
+#dropdownId:hover{
+    color: red;
+}
+#dropdownId:nth-child(1):hover{
+    border-bottom: 2px solid red;
+}
+/* Animation navbar */
+
+@keyframes navbar {
+    from {
+        margin-left: 20%;
+      }
+      
+      to {
+        margin-left: 3%;
+      }   
+}
+/* Navbar style end */
+
+
+/* About ne style */
+#Me{
+   padding-bottom: 2%;
+   animation-duration: 2s;
+   animation-name: Me;
+}
+#me-span{
+    margin-left: 42%;
+}
+#text-p{
+    width: 75%;
+    margin-left: 13%;
+}
+
+/* About me Animation */
+
+@keyframes Me {
+    from {
+        margin-left: 5%;
+        width: 300%;
+      }
+    
+      to {
+        margin-left: 0%;
+        width: 100%;
+      }
+}
+
+/* About ne end */
+
+
+/* Main style */
+.main{
+    width: 800px;
+    margin-left: 20%;
+    margin-top: 5%;
+    color: black;
+    animation-duration: 2s;
+    animation-name: main;
+}
+.main-h4{
+    margin-bottom: 5%;
+}
+.skil-item{ 
+    height: 100%;
+    margin-right: 1%;
+}
+.skil{
+    width: 100%;
+    background: black;
+}
+#skil-1{
+    color: black;
+    height: 100%;
+    background: rgb(155, 0, 0);
+    width: 50%;
+}
+#skil-2{
+    color: black;
+    height: 100%;
+    background: rgb(155, 0, 0);
+    width: 100%;
+}
+#skil-3{
+    color: black;
+    height: 100%;
+    background: rgb(155, 0, 0);
+    width: 60%;
+}
+#skil-4{
+    color: black;
+    height: 100%;
+    background: rgb(155, 0, 0);
+    width: 20%;
+}
+#skil-5{
+    color: black;
+    height: 100%;
+    background: rgb(155, 0, 0);
+    width: 95%;
+}
+/* About me end */
+
+
+/* footer style start */
+.footer{
+    width: 100%;
+    color: white;
+    display: flex;
+    background: rgb(46, 46, 46);
+    padding: 3% 5%;
+    margin-top: 5%;
+}
+.footer-item{
+    text-align: start;
+    list-style-type: none ;
+    font-size: 0.8srem;
+}
+.footer-name{
+    font-size: 1.2rem;
+    margin-left: 10%;
+}

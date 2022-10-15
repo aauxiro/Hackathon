@@ -1,0 +1,81 @@
+/* Navbar style start */
+#navbar{
+    flex-wrap: nowrap;
+    margin: 0 5%;
+}
+.navbar{
+    animation-duration: 2s;
+    animation-name: navbar;
+}
+#dropdownId{
+    color: white;
+    font-weight: 400px;
+    margin-left: 2%;
+}
+#dropdownId:nth-child(3){
+    border-bottom: 2px solid white;
+}
+#dropdownId:hover{
+    color: red;
+}
+#dropdownId:nth-child(3):hover{
+    border-bottom: 2px solid red;
+}
+/* Animation navbar */
+
+@keyframes navbar {
+    from {
+        margin-left: 20%;
+      }
+      
+      to {
+        margin-left: 3%;
+      }   
+}
+/* Navbar style end */
+
+
+/* section style start */
+#hobby{
+    background-color: rgb(104, 102, 99);
+    display: flex;
+    text-align: center;
+}
+#hobby-img{
+    margin: 2% 2% 10% 10%;
+}
+#hobby-h1{
+    margin-top: 3%;
+}
+#hobby-h4{
+    font-size: 2rem;
+    margin-top: 5%;
+    margin-bottom: 8%;
+}
+#hobby-p{
+    font-weight: 400;
+    font-size: 1.3rem;
+    margin-left: 15%;
+width: 70%;
+}
+/* section style end  */
+
+
+/* footer style start */
+.footer{
+    width: 100%;
+    color: white;
+    display: flex;
+    background: rgb(46, 46, 46);
+    padding: 3% 5%;
+}
+.footer-item{
+    text-align: start;
+    list-style-type: none ;
+    font-size: 0.8srem;
+}
+.footer-name{
+    font-size: 1.2rem;
+    margin-left: 10%;
+}
+/* eooter style end */
